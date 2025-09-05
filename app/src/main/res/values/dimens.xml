@@ -21,4 +21,12 @@
     <dimen name="logo_width">180dp</dimen>
     <dimen name="logo_height">100dp</dimen>
     <dimen name="input_height">48dp</dimen>
+
+    <!-- Tambahan untuk MainMenu -->
+    <dimen name="profile_image_size">100dp</dimen>
+    <dimen name="menu_icon_size">48dp</dimen>
+    <dimen name="menu_padding">16dp</dimen>
+    <dimen name="menu_margin">8dp</dimen>
+    <dimen name="menu_radius">16dp</dimen>
+    <dimen name="menu_spacing_top">32dp</dimen>
 </resources>

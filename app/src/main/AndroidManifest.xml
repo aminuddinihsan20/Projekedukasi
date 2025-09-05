@@ -12,10 +12,16 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.ProjectZoo">
         <activity
-            android:name=".auth.signup.SignUpActivity"
+            android:name=".ui.menu.MainMenuActivity"
             android:exported="false" />
         <activity
-            android:name=".auth.login.LoginActivity"
+            android:name=".ui.profile.ProfileActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ui.auth.signup.SignUpActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ui.auth.login.LoginActivity"
             android:exported="false" />
         <activity
             android:name=".SplashScreenActivity"

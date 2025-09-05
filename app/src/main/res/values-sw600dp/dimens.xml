@@ -21,6 +21,16 @@
     <!-- Logo lebih besar -->
     <dimen name="logo_width">280dp</dimen>
     <dimen name="logo_height">160dp</dimen>
-    <dimen name="logo_size">150dp</dimen>
-    <dimen name="input_height">48dp</dimen>
+    <dimen name="logo_size">200dp</dimen>
+
+    <!-- Input -->
+    <dimen name="input_height">64dp</dimen>
+
+    <!-- Tambahan untuk menu tablet -->
+    <dimen name="profile_image_size">140dp</dimen>
+    <dimen name="menu_icon_size">72dp</dimen>
+    <dimen name="menu_padding">24dp</dimen>
+    <dimen name="menu_margin">16dp</dimen>
+    <dimen name="menu_radius">24dp</dimen>
+    <dimen name="menu_spacing_top">48dp</dimen>
 </resources>
