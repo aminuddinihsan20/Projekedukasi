@@ -1,4 +1,4 @@
-package com.projectzoo.auth.signup
+package com.projectzoo.ui.auth.signup
 
 import android.os.Bundle
 import androidx.activity.enableEdgeToEdge
