@@ -1,17 +1,15 @@
-package com.projectzoo.auth.login
+package com.projectzoo.ui.auth.login
 
+import android.content.Intent
 import android.os.Bundle
 import android.view.animation.AnimationUtils
-import android.widget.Button
-import android.widget.EditText
-import android.widget.ImageView
-import android.widget.TextView
-import android.widget.Toast
+import android.widget.*
 import androidx.activity.enableEdgeToEdge
 import androidx.appcompat.app.AppCompatActivity
 import androidx.core.view.ViewCompat
 import androidx.core.view.WindowInsetsCompat
 import com.projectzoo.R
+import com.projectzoo.ui.menu.MainMenuActivity
 
 class LoginActivity : AppCompatActivity() {
 
@@ -56,6 +54,11 @@ class LoginActivity : AppCompatActivity() {
             } else {
                 if (username == "admin" && password == "1234") {
                     Toast.makeText(this, "Login Berhasil 🎉", Toast.LENGTH_SHORT).show()
+
+                    // Pindah ke MainMenuActivity
+                    val intent = Intent(this, MainMenuActivity::class.java)
+                    startActivity(intent)
+                    finish()
                 } else {
                     Toast.makeText(this, "Username atau Password salah", Toast.LENGTH_SHORT).show()
                 }
