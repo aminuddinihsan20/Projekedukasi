@@ -1,0 +1,26 @@
+<resources>
+    <!-- Margin lebih besar di tablet -->
+    <dimen name="margin_small">12dp</dimen>
+    <dimen name="margin_medium">24dp</dimen>
+    <dimen name="margin_large">48dp</dimen>
+
+    <!-- Padding lebih lega -->
+    <dimen name="padding_small">12dp</dimen>
+    <dimen name="padding_medium">20dp</dimen>
+    <dimen name="padding_large">28dp</dimen>
+
+    <!-- Text lebih besar -->
+    <dimen name="text_small">18sp</dimen>
+    <dimen name="text_medium">22sp</dimen>
+    <dimen name="text_large">32sp</dimen>
+
+    <!-- Komponen lebih tinggi -->
+    <dimen name="edittext_height">64dp</dimen>
+    <dimen name="button_height">70dp</dimen>
+
+    <!-- Logo lebih besar -->
+    <dimen name="logo_width">280dp</dimen>
+    <dimen name="logo_height">160dp</dimen>
+    <dimen name="logo_size">150dp</dimen>
+    <dimen name="input_height">48dp</dimen>
+</resources>

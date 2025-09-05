@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Default -->
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+
+    <!-- Custom Palette -->
+    <color name="peach">#FFD6BA</color>
+    <color name="peach_light">#FFE8CD</color>
+    <color name="peach_lighter">#FFF2EB</color>
+    <color name="peach_pink">#FFDCDC</color>
+</resources>

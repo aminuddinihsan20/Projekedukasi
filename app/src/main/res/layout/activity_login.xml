@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg_awan"
+    tools:context=".auth.login.LoginActivity">
+
+    <!-- Logo -->
+    <ImageView
+        android:id="@+id/logo"
+        android:layout_width="@dimen/logo_size"
+        android:layout_height="@dimen/logo_size"
+        android:src="@drawable/zoooparkanak"
+        android:contentDescription="@string/app_name"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginTop="@dimen/margin_large"/>
+
+    <!-- Username -->
+    <EditText
+        android:id="@+id/etUsername"
+        android:layout_width="0dp"
+        android:layout_height="@dimen/input_height"
+        android:hint="Username"
+        android:background="@drawable/bg_edittext"
+        android:padding="@dimen/padding_medium"
+        android:inputType="text"
+        app:layout_constraintTop_toBottomOf="@id/logo"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginTop="@dimen/margin_large"
+        android:layout_marginHorizontal="@dimen/margin_large"/>
+
+    <!-- Password -->
+    <EditText
+        android:id="@+id/etPassword"
+        android:layout_width="0dp"
+        android:layout_height="@dimen/input_height"
+        android:hint="Password"
+        android:inputType="textPassword"
+        android:background="@drawable/bg_edittext"
+        android:padding="@dimen/padding_medium"
+        app:layout_constraintTop_toBottomOf="@id/etUsername"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginTop="@dimen/margin_medium"
+        android:layout_marginHorizontal="@dimen/margin_large"/>
+
+    <!-- Lupa Password -->
+    <TextView
+        android:id="@+id/tvForgotPassword"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Lupa Password?"
+        android:textColor="@android:color/black"
+        android:textSize="@dimen/text_small"
+        app:layout_constraintTop_toBottomOf="@id/etPassword"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginTop="@dimen/margin_small"
+        android:layout_marginEnd="@dimen/margin_large"/>
+
+    <!-- Tombol Login -->
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/btnLogin"
+        android:layout_width="0dp"
+        android:layout_height="@dimen/button_height"
+        android:text="GO"
+        android:textColor="@android:color/white"
+        android:textStyle="bold"
+        android:padding="@dimen/padding_medium"
+        android:textSize="@dimen/text_medium"
+        app:cornerRadius="12dp"
+        app:backgroundTint="@null"
+        android:background="@drawable/bg_button_orange"
+        app:layout_constraintTop_toBottomOf="@id/tvForgotPassword"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginTop="@dimen/margin_medium"
+        android:layout_marginHorizontal="@dimen/margin_large"/>
+
+
+    <!-- Text Sign Up -->
+    <TextView
+        android:id="@+id/tvSignup"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Apakah Sudah Punya Akun?"
+        android:textColor="@android:color/black"
+        android:textSize="@dimen/text_small"
+        app:layout_constraintTop_toBottomOf="@id/btnLogin"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:gravity="center"
+        android:layout_marginTop="@dimen/margin_medium"/>
+
+    <!-- Text Sign-up link -->
+    <TextView
+        android:id="@+id/tvSignupLink"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Sign-up"
+        android:textColor="@android:color/holo_green_dark"
+        android:textStyle="bold"
+        android:textSize="@dimen/text_small"
+        android:layout_marginStart="@dimen/margin_small"
+        app:layout_constraintTop_toTopOf="@id/tvSignup"
+        app:layout_constraintStart_toEndOf="@id/tvSignup"/>
+
+    <!-- Gambar dinosaurus -->
+    <ImageView
+        android:id="@+id/imgDino"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:contentDescription="dino"
+        android:src="@drawable/ic_kids_dino"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tvSignup"
+        android:layout_marginTop="@dimen/margin_small"/>
+</androidx.constraintlayout.widget.ConstraintLayout>
