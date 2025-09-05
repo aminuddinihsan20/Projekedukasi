@@ -5,7 +5,7 @@ import android.os.Bundle
 import android.os.Handler
 import android.view.animation.AnimationUtils
 import androidx.appcompat.app.AppCompatActivity
-import com.projectzoo.auth.login.LoginActivity
+import com.projectzoo.ui.auth.login.LoginActivity
 import com.projectzoo.databinding.ActivitySplashScreenBinding
 
 class SplashScreenActivity : AppCompatActivity() {
